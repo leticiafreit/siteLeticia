@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 5%;
+    align-items: center;
+    font-size: 25px;
+
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+.paginas{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+.paginas:hover{
+    color: lightpink;
+}
